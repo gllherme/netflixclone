@@ -58,6 +58,14 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
+      <footer>
+        Direitos de imagem para Netflix <br/>
+        Dados coletetados do site <a href="https://www.themoviedb.org/"> The Movie Database (TMDB)</a> 
+      </footer>
+
+      {movieList.length <= 0 &&
+      <div className="loading"></div>}
     </div>
   );
 }

@@ -15,3 +15,26 @@ body {
 .lists {
     margin-top: -12rem;
 }
+
+footer {
+    margin: 2.5rem;
+    text-align: center;
+    color: #999;
+}
+
+.loading {
+    position: relative;
+    z-index: 99;
+    width: 5vw;
+    height: 5vw;
+    top: 53vh;
+    left: 47vw;
+    border: 0.5vw solid rgba(153, 153, 153, .2);
+    border-left-color: red;
+    border-radius: 100%;
+    animation: spin .15s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
