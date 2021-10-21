@@ -25,6 +25,7 @@
     width: 100%;
     transform: scale(0.9);
     transition: all ease 0.2s;
+    border-radius: 3px;
 }
 
 .movieRow--item img:hover {
