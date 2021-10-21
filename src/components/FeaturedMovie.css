@@ -105,8 +105,10 @@
         margin-right: 30px;
     }
 
-    .featured--watchbutton, .featured--mylistbutton {
+    .featured--watchbutton, 
+    .featured--mylistbutton {
         font-size: 14px;
+        opacity: 100%;
     }
 
     .featured--genres {
