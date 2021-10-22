@@ -108,7 +108,7 @@
     .featured--watchbutton, 
     .featured--mylistbutton {
         font-size: 14px;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .featured--genres {
